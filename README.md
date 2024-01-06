@@ -13,7 +13,7 @@
   <img alt="typst package" src="https://img.shields.io/badge/typst-package-239dad">
 </a>
 
-this package provides a function to render tree list easily in Typst.
+render tree list easily in Typst
 
 contribution is welcomed!
 

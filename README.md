@@ -62,7 +62,7 @@ see [demo.typ](https://github.com/8LWXpg/typst-tree-list/blob/master/test/demo.t
 ]
 ```
 
-![1.png](./img/1.png)
+![1.png](https://github.com/8LWXpg/typst-tree-list/blob/master/img/1.png)
 
 ```typst
 #tree-list(
@@ -86,6 +86,6 @@ see [demo.typ](https://github.com/8LWXpg/typst-tree-list/blob/master/test/demo.t
 ]
 ```
 
-![2.png](./img/2.png)
+![2.png](https://github.com/8LWXpg/typst-tree-list/blob/master/img/2.png)
 
 ```typst

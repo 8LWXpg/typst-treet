@@ -16,7 +16,14 @@
 
     if body.has("children") {
       let iter = body.children.filter(i => i.fields() != (:))
-      [#__marker#iter.remove(0)\ ]
+
+      [#__marker#while (iter.len() > 0) and (not iter.at(0).has("body")) {
+        iter.remove(0)
+      }\ ]
+
+      if iter.len() == 0 {
+        return
+      }
 
       let last = iter.pop()
       for i in iter {
@@ -24,7 +31,7 @@
       }
       [#__indent#format(last, __indent: [#__indent#empty-indent], __marker: last-marker)]
     } else {
-      [#__marker#body.text\ ]
+      [#__marker#body\ ]
     }
   }
 

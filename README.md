@@ -45,6 +45,8 @@ contribution is welcomed!
 
 see [demo.typ](https://github.com/8LWXpg/typst-tree-list/blob/master/test/demo.typ) [demo.pdf](https://github.com/8LWXpg/typst-tree-list/blob/master/test/demo.pdf)
 
+### Default style
+
 ```typst
 #tree-list[
   - 1
@@ -64,8 +66,10 @@ see [demo.typ](https://github.com/8LWXpg/typst-tree-list/blob/master/test/demo.t
 
 ![1.png](https://github.com/8LWXpg/typst-tree-list/blob/master/img/1.png)
 
+### Custom style
+
 ```typst
-#tree-list(
+#text(red, tree-list(
   marker: text(blue)[├── ],
   last-marker: text(aqua)[└── ],
   indent: text(teal)[│#h(1.5em)],
@@ -83,9 +87,25 @@ see [demo.typ](https://github.com/8LWXpg/typst-tree-list/blob/master/test/demo.t
     - 3.1
       - 3.1.1
     - 3.2
-]
+])
 ```
 
 ![2.png](https://github.com/8LWXpg/typst-tree-list/blob/master/img/2.png)
 
+### Using show rule
+
 ```typst
+#show list: tree-list
+#set text(font: "DejaVu Sans Mono")
+
+root_folder\
+- sub-folder
+  - 1-1
+    - 1.1.1 -
+  - 1.2
+    - 1.2.1
+    - 1.2.2
+- 2
+```
+
+![3.png](https://github.com/8LWXpg/typst-tree-list/blob/master/img/3.png)

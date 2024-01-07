@@ -36,5 +36,5 @@ jobs:
         source-files: lib.typ CHANGELOG.md LICENSE README.md typst.toml
         destination-username: ${{ github.repository_owner }}
         destination-repository: packages
-        destination-directory: packages/preview/tree-list/${{ steps.parsed_tag.outputs.tag }}
+        destination-directory: packages/preview/treet/${{ steps.parsed_tag.outputs.tag }}
         destination-branch: main

@@ -1,15 +1,15 @@
 # Treet
 
-<a href="https://github.com/8LWXpg/typst-treet/tags">
+<a href="https://github.com/8LWXpg/typst-treet/tags" style="text-decoration: none;">
   <img alt="GitHub manifest version (path)" src="https://img.shields.io/github/v/tag/8LWXpg/typst-treet">
 </a>
-<a href="https://github.com/8LWXpg/typst-treet">
+<a href="https://github.com/8LWXpg/typst-treet" style="text-decoration: none;">
   <img src="https://img.shields.io/github/stars/8LWXpg/typst-treet?style=flat" alt="GitHub Repo stars">
 </a>
-<a href="https://github.com/8LWXpg/typst-treet/blob/master/LICENSE">
+<a href="https://github.com/8LWXpg/typst-treet/blob/master/LICENSE" style="text-decoration: none;">
   <img alt="GitHub" src="https://img.shields.io/github/license/8LWXpg/typst-treet">
 </a>
-<a href="https://github.com/typst/packages/tree/main/packages/preview/treet">
+<a href="https://github.com/typst/packages/tree/main/packages/preview/treet" style="text-decoration: none;">
   <img alt="typst package" src="https://img.shields.io/badge/typst-package-239dad">
 </a>
 

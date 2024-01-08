@@ -13,7 +13,7 @@
   <img alt="typst package" src="https://img.shields.io/badge/typst-package-239dad">
 </a>
 
-render tree list easily in Typst
+Create tree list easily in Typst
 
 contribution is welcomed!
 

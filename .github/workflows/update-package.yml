@@ -27,10 +27,10 @@ jobs:
         echo "tag=${version:1}" >> $GITHUB_OUTPUT
 
     - name: push
-      uses: nkoppel/push-files-to-another-repository@v1.1.1
+      uses: nkoppel/push-files-to-another-repository@v1.1.2
       # repo PAT
       env:
-        API_TOKEN_GITHUB: ${{ secrets.PERSONAL_TOKEN }}
+        API_TOKEN_GITHUB: ${{ secrets.REPO_PAT }}
       with:
         commit-email: v3ak6xhthk@gmail.com
         source-files: lib.typ CHANGELOG.md LICENSE README.md typst.toml

@@ -15,8 +15,10 @@
     let body = content.body
 
     if body.has("children") {
+      // children in the iter should looks like [content..., item...]
       let iter = body.children
 
+      // render item body, remaining iter should looks like [item...]
       [#__marker#while (iter.len() > 0) and (not iter.at(0).func() == list.item) {
         iter.remove(0)
       }\ ]
@@ -25,6 +27,8 @@
         return
       }
 
+      // remove [ ] from the iter
+      let iter = iter.filter(i => i.fields() != (:))
       let last = iter.pop()
       for i in iter {
         [#__indent#format(i, __indent: [#__indent#indent])]

@@ -10,7 +10,7 @@ if ($version -match '^\d+\.\d+\.\d+$') {
 	exit 1
 }
 
-$content = cat ./README.md | %{$_ -replace '"@preview/ansi-render:(\d+\.\d+\.\d+)"', "`"@preview/tree-list:$version`""}
+$content = cat ./README.md | %{$_ -replace '"@preview/treet:(\d+\.\d+\.\d+)"', "`"@preview/treet:$version`""}
 Set-Content ./README.md $content
 $content = cat ./typst.toml | %{$_ -replace 'version = "(\d+\.\d+\.\d+)"', "version = `"$version`""}
 Set-Content ./typst.toml $content

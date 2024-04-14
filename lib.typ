@@ -15,9 +15,9 @@
     let body = content.body
 
     if body.has("children") {
-      let iter = body.children.filter(i => i.fields() != (:))
+      let iter = body.children
 
-      [#__marker#while (iter.len() > 0) and (not iter.at(0).has("body")) {
+      [#__marker#while (iter.len() > 0) and (not iter.at(0).func() == list.item) {
         iter.remove(0)
       }\ ]
 

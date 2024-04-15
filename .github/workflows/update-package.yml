@@ -37,4 +37,4 @@ jobs:
         destination-username: ${{ github.repository_owner }}
         destination-repository: packages
         destination-directory: packages/preview/treet/${{ steps.parsed_tag.outputs.tag }}
-        destination-branch: main
+        destination-branch: treet

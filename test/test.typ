@@ -11,13 +11,13 @@
 ]
 
 #tree-list[
-	- a
-	- a
-		- a
-		- a
-			- a
-				- a
-			- a
-		- a
-	- a
+  - a
+  - a
+    - a
+    - a
+      - a
+        - a
+      - a
+    - a
+  - a
 ]

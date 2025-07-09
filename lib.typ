@@ -3,7 +3,7 @@
   last-marker: [└─ ],
   indent: [│#h(1em)],
   empty-indent: [#h(1.5em)],
-  marker-font: "Cascadia Code",
+  marker-font: "Dejavu Sans Mono",
   content,
 ) = {
   marker = text(font: marker-font, marker)

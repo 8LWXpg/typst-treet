@@ -1,5 +1,7 @@
 #import "../lib.typ": *
 
+#set document(date: none)
+
 #tree-list[
   - A A
   - B B

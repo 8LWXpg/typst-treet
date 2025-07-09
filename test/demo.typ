@@ -1,5 +1,7 @@
 #import "../lib.typ": *
 
+#set document(date: none)
+
 = Tree List
 
 == Default
